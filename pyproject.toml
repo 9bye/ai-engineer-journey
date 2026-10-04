@@ -7,7 +7,9 @@ authors = [
     { email = "rauant03@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "python-dotenv>=1.2.4",
+]
 
 [project.scripts]
 ai-engineer-prep = "ai_engineer_prep:main"
